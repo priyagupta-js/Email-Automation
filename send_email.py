@@ -7,6 +7,8 @@ from datetime import datetime
 from jinja2 import Template
 from config import SMTP_SERVER, SMTP_PORT, SENDER_EMAIL, APP_PASSWORD, DAILY_LIMIT, DELAY_SECONDS
 
+
+
 # Logging
 logging.basicConfig(
     filename="logs/email.log",
@@ -14,10 +16,25 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-# Load data
-df = pd.read_excel("data/HR-lists.xlsx")
+
+
+
+# load data
+df = pd.read_excel("data/HR_lists.xlsx", dtype=str)
+
+# Normalize column names
 df.columns = [c.strip().lower() for c in df.columns]
+
+# Ensure required columns exist
+for col in ["status", "date", "error"]:
+    if col not in df.columns:
+        df[col] = ""
+
+# Normalize values
 df["status"] = df["status"].fillna("pending")
+df["date"] = df["date"].fillna("")
+df["error"] = df["error"].fillna("")
+
 
 # Load template
 with open("email_template.txt", "r", encoding="utf-8") as f:
@@ -55,14 +72,14 @@ pending = df[df["status"] == "pending"].head(DAILY_LIMIT)
 for idx, row in pending.iterrows():
     try:
         send_email(row)
-        df.at[idx, "status"] = "sent"
-        df.at[idx, "date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        df.at[idx, "error"] = ""
+        df.loc[idx, "status"] = "sent"
+        df.loc[idx, "date"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        df.loc[idx, "error"] = ""
         logging.info(f"Sent to {row['email']}")
     except Exception as e:
-        df.at[idx, "status"] = "failed"
-        df.at[idx, "error"] = str(e)
+        df.loc[idx, "status"] = "failed"
+        df.loc[idx, "error"] = str(e)
         logging.error(f"Failed for {row['email']} - {e}")
 
-    df.to_excel("data/HR-lists.xlsx", index=False)
+    df.to_excel("data/HR_lists.xlsx", index=False)
     time.sleep(DELAY_SECONDS)
