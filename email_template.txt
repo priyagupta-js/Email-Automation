@@ -1,0 +1,20 @@
+Dear {{ name }},
+
+I hope you are doing well.
+I am reaching out to explore Software Engineer opportunities at {{ company }}.
+
+I have hands-on experience building full-stack web applications using React, Node.js, Express, MongoDB, and REST APIs.
+Along with this, I have a strong foundation in Java, JavaScript, and Python, and I have worked on building AI/ML models using Python.
+
+I enjoy working in fast-moving teams and contributing to real product development.
+I am currently available to join immediately.
+
+I have attached my resume for your review and would be glad to discuss how my skills align with your team’s needs.
+
+Thank you for your time.
+
+Kind regards,
+Priya Gupta
+E: gupta.priya2k30@gmail.com
+LinkedIn: https://www.linkedin.com/in/priyagupta-js/
+GitHub: https://github.com/priyagupta-js
