@@ -1,4 +1,4 @@
 @echo off
-cd /d "C:\Users\DELL\Desktop\email_automation"
+cd /d "C:\Users\DELL\Desktop\email-automation"
 call venv\Scripts\activate
-python send_emails.py
+python send_email.py
