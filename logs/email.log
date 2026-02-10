@@ -1,0 +1,57 @@
+2026-02-09 10:00:08,532 - INFO - Sent to akram.mohammad@colruytgroup.com
+2026-02-09 10:00:44,428 - INFO - Sent to akriti@elsner.in
+2026-02-09 10:01:24,491 - INFO - Sent to akshata.bhandare@windmill.ch
+2026-02-09 10:02:02,153 - INFO - Sent to albino@pixis.ai
+2026-02-09 10:02:38,716 - INFO - Sent to allwyn.r@qbrainx.com
+2026-02-09 10:03:16,099 - INFO - Sent to alok.singh@recro.io
+2026-02-09 10:03:51,514 - INFO - Sent to alok.kumar@vfislk.com
+2026-02-09 10:04:27,211 - INFO - Sent to alwyn.barretto@infrasofttech.com
+2026-02-09 10:05:04,014 - INFO - Sent to aman.khan@areteanstech.com
+2026-02-09 10:05:40,264 - INFO - Sent to amandeep.k@antiersolutions.com
+2026-02-09 10:32:07,299 - INFO - Found 10 pending emails to process
+2026-02-09 10:32:14,827 - INFO - Sent to amar.sinha@nitorinfotech.com
+2026-02-09 10:32:46,360 - INFO - Found 10 pending emails to process
+2026-02-09 10:32:50,093 - INFO - Sent to amar.sinha@nitorinfotech.com
+2026-02-09 10:32:50,307 - INFO - Excel updated after processing amar.sinha@nitorinfotech.com
+2026-02-09 10:33:23,841 - INFO - Sent to ambrish.kanungo@beyondkey.com
+2026-02-09 10:33:24,043 - INFO - Excel updated after processing ambrish.kanungo@beyondkey.com
+2026-02-09 10:33:57,337 - INFO - Sent to amiit.avaasthi@altudo.co
+2026-02-09 10:33:57,532 - INFO - Excel updated after processing amiit.avaasthi@altudo.co
+2026-02-09 10:34:30,899 - INFO - Sent to amit.malhotra@wundermanthompson.com
+2026-02-09 10:34:31,105 - INFO - Excel updated after processing amit.malhotra@wundermanthompson.com
+2026-02-09 10:35:04,611 - INFO - Sent to amit@hanu.com
+2026-02-09 10:35:04,846 - INFO - Excel updated after processing amit@hanu.com
+2026-02-09 10:35:38,413 - INFO - Sent to amit.prayagi@claimgenius.com
+2026-02-09 10:35:38,633 - INFO - Excel updated after processing amit.prayagi@claimgenius.com
+2026-02-09 10:36:11,076 - ERROR - Failed for amit.ranjan@scikey.ai - (550, b'5.4.5 Daily user sending limit exceeded. For more information on Gmail\n5.4.5 sending limits go to\n5.4.5  https://support.google.com/a/answer/166852 41be03b00d2f7-c6dcb5e406asm11582703a12.22 - gsmtp')
+2026-02-09 10:36:11,293 - INFO - Excel updated after processing amit.ranjan@scikey.ai
+2026-02-09 10:36:43,749 - ERROR - Failed for amit.sahoo@areteanstech.com - (550, b'5.4.5 Daily user sending limit exceeded. For more information on Gmail\n5.4.5 sending limits go to\n5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-824418812d2sm10299358b3a.43 - gsmtp')
+2026-02-09 10:36:43,979 - INFO - Excel updated after processing amit.sahoo@areteanstech.com
+2026-02-09 10:37:16,369 - ERROR - Failed for ashital@svam.com - (550, b'5.4.5 Daily user sending limit exceeded. For more information on Gmail\n5.4.5 sending limits go to\n5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-2a952222611sm89215725ad.90 - gsmtp')
+2026-02-09 10:37:16,612 - INFO - Excel updated after processing ashital@svam.com
+2026-02-09 10:37:49,092 - ERROR - Failed for amitesh.verma@cheersin.com - (550, b'5.4.5 Daily user sending limit exceeded. For more information on Gmail\n5.4.5 sending limits go to\n5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-82457ef1000sm5441333b3a.34 - gsmtp')
+2026-02-09 10:37:49,346 - INFO - Excel updated after processing amitesh.verma@cheersin.com
+2026-02-09 10:38:19,346 - INFO - === Email automation script finished ===
+
+2026-02-10 10:22:21,155 - INFO - Found 10 pending emails to process
+2026-02-10 10:22:27,009 - INFO - Sent to amit.ranjan@scikey.ai
+2026-02-10 10:22:27,720 - INFO - Excel updated after processing amit.ranjan@scikey.ai
+2026-02-10 10:23:02,664 - INFO - Sent to amit.sahoo@areteanstech.com
+2026-02-10 10:23:02,966 - INFO - Excel updated after processing amit.sahoo@areteanstech.com
+2026-02-10 10:23:38,853 - INFO - Sent to ashital@svam.com
+2026-02-10 10:23:39,133 - INFO - Excel updated after processing ashital@svam.com
+2026-02-10 10:24:13,626 - INFO - Sent to amitesh.verma@cheersin.com
+2026-02-10 10:24:13,983 - INFO - Excel updated after processing amitesh.verma@cheersin.com
+2026-02-10 10:24:49,076 - INFO - Sent to amitha.k@secure-24.com
+2026-02-10 10:24:49,396 - INFO - Excel updated after processing amitha.k@secure-24.com
+2026-02-10 10:25:24,010 - INFO - Sent to amlan.nag@mjunction.in
+2026-02-10 10:25:24,321 - INFO - Excel updated after processing amlan.nag@mjunction.in
+2026-02-10 10:25:58,382 - INFO - Sent to amreshm@zendrive.com
+2026-02-10 10:25:58,684 - INFO - Excel updated after processing amreshm@zendrive.com
+2026-02-10 10:26:32,792 - INFO - Sent to akishore@dimagi.com
+2026-02-10 10:26:33,836 - INFO - Excel updated after processing akishore@dimagi.com
+2026-02-10 10:27:09,657 - INFO - Sent to amrita.cheema@loconav.com
+2026-02-10 10:27:10,651 - INFO - Excel updated after processing amrita.cheema@loconav.com
+2026-02-10 10:27:44,775 - ERROR - Failed for amrita.singh@cogentinfo.com - (550, b'5.4.5 Daily user sending limit exceeded. For more information on Gmail\n5.4.5 sending limits go to\n5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-82441696949sm11980927b3a.24 - gsmtp')
+2026-02-10 10:27:45,830 - INFO - Excel updated after processing amrita.singh@cogentinfo.com
+2026-02-10 10:28:15,832 - INFO - === Email automation script finished ===
